@@ -44,6 +44,8 @@ prevButton.addEventListener("click", ()=>{
 nextButton.addEventListener('click', async ()=>{
 		if(nextUrl){
 			renderPage(nextUrl);
+		}else{
+			renderPage('https://swapi.dev/api/people');
 		}
 });
 
